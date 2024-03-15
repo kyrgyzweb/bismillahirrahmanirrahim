@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import { useState } from 'react';
 import Toggle from './Hooks-01';
+import ColorPicker from './ColorPicker';
 
 function App() {
   const [toggle, setToggle] = useState();
@@ -14,6 +15,7 @@ function App() {
 
       <p>Ekinchi Toggle</p>
       <Toggle />
+      <ColorPicker />
     </div>
 
   )
