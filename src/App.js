@@ -3,6 +3,8 @@ import './App.css';
 import { useState } from 'react';
 import Toggle from './Hooks-01';
 import ColorPicker from './ColorPicker';
+import ToggleLoading from './InitializeState';
+import FavoriteColor from './FavoriteColor';
 
 function App() {
   const [toggle, setToggle] = useState();
@@ -16,6 +18,8 @@ function App() {
       <p>Ekinchi Toggle</p>
       <Toggle />
       <ColorPicker />
+      <ToggleLoading />
+      <FavoriteColor />
     </div>
 
   )
